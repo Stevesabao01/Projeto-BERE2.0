@@ -74,7 +74,7 @@ void exibirMenuPrincipal() {
     printf("4. Padaria\n");
     printf("5. Pagamento\n");
     printf("6. Fechamento de Caixa\n"); //inseri o fechamento de caixa
-    printf("6. Sair\n");
+    printf("7. Sair\n");
 }
 
 void exibirTotais(float totalLimpeza, float totalAlimentos,float totalPadaria) {
@@ -146,7 +146,7 @@ void exibirSubmenuLimpeza() {
                 valor = qtd * 8.99;
                 adicionarItem(1, valor);
                 break;
-            case 3: //fazer com que o item fique sem estoque na mensagem de scanf
+            case 3: //fazer com que o item fique sem estoque
                 printf("Informe a quantidade de Esponja: ");
                 scanf("%d", &qtd);
                 valor = qtd * 1.50;
