@@ -69,13 +69,11 @@ int main() {
 void exibirMenuPrincipal() {
     printf("\n==== SEJA BEM-VINDA BERE ^_^ ====\n");
     printf("\n-------------------------------------\n");
-    printf("1. Abertura de Caixa\n"); //inseri a abertura de caixa seguindo a logica
-    printf("2. Material de Limpeza\n");
-    printf("3. Venda de Alimentos\n");
-    printf("4. Padaria\n");
-    printf("5. Pagamento\n");
-    printf("6. Fechamento de Caixa\n"); //inseri o fechamento de caixa
-    printf("7. Sair\n");
+    printf("1. Material de Limpeza\n");
+    printf("2. Venda de Alimentos\n");
+    printf("3. Padaria\n");
+    printf("4. Pagamento\n");
+    printf("5. Sair\n");
 }
 
 void exibirTotais(float totalLimpeza, float totalAlimentos,float totalPadaria) {
